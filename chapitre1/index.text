@@ -1,0 +1,42 @@
+Etape 1:
+je déclarée les varaibles  {
+    $host : je donnes   'localhost'(serveur )
+    $dbname : je donne le nom de databese , 'blogdb'
+    $username : je donne le nom de l'utilisateur mysql, 'root'
+    $password : je lessai vide ''
+    }
+
+Etape 2:
+je ovrer la structure php avec : '<?php'
+je ouvrer la fonction 'try' qui va traiter le code
+
+Etape 3:
+je déclarée le variable '$pdo'  qui va  se connecter avec database :
+'new pdo ' :faire une nouvelle objet qui va se connecter le database 
+{"mysql: le type de database
+$host=host le server ou la databese se trouve 
+dbname=$dbname;  le nom de datbase 
+charset=utf8" ; pour lire les longue( ar et fr) correctement
+$username, $password; les information pour se connecter}
+
+Etape 4:
+  
+   on faire cette $PDO-> fonction pour  utilise les donne qui se trouve dans le pdo
+    
+  setAttribute: pour change les réglages
+  (  PDO::ATTR_ERRMODE, on utilise pour contole les errre 
+   PDO::ERRMODE_EXCEPTION; si c'était une eurre le programme  n'arréte pas,elle attrapée par catch)
+
+Etape 5:
+   echo"connexion réussie à la base $dbname"; 
+   il affiche se message  si tout correct et la connexion réussie
+Etape 6:
+
+catch : atttrape l'erreur
+PDOException: le type d'erreur
+ $e : on faire se varaible pour contient le message d'erreur
+   on faire echo pour affiche le message d'erreur
+    echo "erreur de connexion :" . $e->getMessage();
+Etape 6:
+on ferme la fonction php
+?> 

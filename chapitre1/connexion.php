@@ -1,0 +1,15 @@
+<?php
+$host = 'localhost';
+$dbname = 'blogdb';
+$username = 'root';
+$password = '';
+
+try {
+  $pdo = new PDO( "mysql:$host;dbname=$dbname;charset=utf8");
+  $pdo->setAttribute(  PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+   echo"connexion réussie à la base $dbname";
+}catch(PDOException $e){
+    echo "erreur de connexion :" . $e->getMessage();
+
+}
+?>
