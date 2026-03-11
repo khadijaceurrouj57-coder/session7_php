@@ -1,0 +1,14 @@
+Etape 1 :
+j’ai utilisé le fichier "connexion.php" pour faire la connexion 
+avec la base de données en utilisant pdo
+etape 2:
+Apres j’ai ecrit une requete SQL pour récupérer
+tous les utilisateurs de la table utilisateur.
+etape 3:
+ Apres ça j’ai utilise une boucle foreach pour afficher
+les informations des utilisateurs (ID, Nom, Email)
+Etape 4:
+J’ai affiche les données deux fois
+une fois sous forme de texte deuxième fois dans le tableau HTML
+Etape 5:
+j’ai utilise try et catch pour gerer les erreure

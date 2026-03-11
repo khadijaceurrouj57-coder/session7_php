@@ -5,9 +5,11 @@ $username = 'root';
 $password = '';
 
 try {
-  $pdo = new PDO( "mysql:$host;dbname=$dbname;charset=utf8");
+  //ouvrir connection
+  $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
   $pdo->setAttribute(  PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-   echo"connexion réussie à la base $dbname";
+   
+  echo"connexion réussie à la base $dbname";
 }catch(PDOException $e){
     echo "erreur de connexion :" . $e->getMessage();
 
