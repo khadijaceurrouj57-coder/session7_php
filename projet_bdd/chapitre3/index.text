@@ -1,0 +1,12 @@
+ETAPE 1:
+je utilisé connexion.php pour se connecter à la base de données en utilisant PDO
+etape2:
+j'ajouté un nouvel utilisateur nommé Charlie avec son email
+etape3:
+j'ai modifié l’email de l’utilisateur dont l’ID 
+est 3 et j'ai supprimé l’utilisateur dont l’ID est 3
+ETAPE4:
+j'ai récupéré tous les utilisateurs et affichés sous forme de texte
+est affiché les mêmes données dans un tableau HTML
+etape5:
+ try catch ,capturée et affichée erreur PDO 
