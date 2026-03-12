@@ -1,0 +1,11 @@
+ETAPE 1:
+on utilise PDO pour se connecter à la base de données blogdb
+ETAPE 2:
+on essaie de se connecter à la base de données avec try/catch
+Si la connexion réussit il affiche ' Connexion réussie '
+S’il y a une erreur le programme affiche ' Erreur de connexion '
+Etape 3 :
+donc L’erreur est capturée par le catch est affiche a l'ecran (Erreur SQL : ...)
+ est enregistrée dans un fichier erreurs.log
+ETAPE 4 :
+ Le programme se termine après avoir géré les erreurs
