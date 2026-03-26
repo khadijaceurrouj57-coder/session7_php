@@ -1,0 +1,16 @@
+Étape 1 :
+On prépare une requête pour ajouter un utilisateur  (:nom, :email).
+On exécute la requête est  affiche un message de confirmation.
+
+Étape 2 :
+On prépare la même requête mais cette fois avec bindParam pour lier des variables aux paramètres.
+On peut en suite modifier les valeurs des variables avant d’exécuter la requête.
+
+Étape 3 :
+On prépare une requête SELECT sécurisée avec un paramètre nommé (:email).
+On exécute la requête avec la valeur correspondante, on récupère le résultat et on affiche les informations de l’utilisateur.
+
+Étape 4 :
+On prépare une requête SELECT avec paramètres anonymes (?)
+On exécute en passant les valeurs dans un tableau
+C’est utile quand on n’a pas besoin de nommer les paramètres

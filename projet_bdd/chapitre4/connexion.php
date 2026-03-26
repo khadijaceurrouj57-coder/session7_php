@@ -8,7 +8,6 @@ try {
 }try {
    $pdo->query("SELECT * FROM table_inexistante");
 } catch (PDOException $e) {
-    echo "Erreur SQL : " . $e->getMessage();
     file_put_contents('erreurs.log', $e->getMessage(), FILE_APPEND);
      echo "Une erreur est survenue. Contactez l'administrateur.";
  }
