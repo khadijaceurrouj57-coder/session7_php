@@ -1,0 +1,22 @@
+etape 1 :
+J’ai créé une classe Database pour gérer la connexion à la base de données avec PDO
+etape 2 :
+J’ai créé une classe User qui contient les propriétés (id, nom, email)
+et qui reçoit la connexion à la base de données dans le constructeur
+etape 3 :
+J’ai implémenté les méthodes CRUD :
+create() → ajouter un utilisateur
+read() → lire tous les utilisateurs
+update() → modifier un utilisateur
+delete() → supprimer un utilisateur
+etape 4 :
+Dans index.php, j’ai créé une connexion avec Database,
+puis un objet User pour exécuter les opérations
+etape 5 :
+J’ai ajouté un utilisateur avec create() puis récupéré les données avec read()
+et affiché la liste avec une boucle foreach
+etape 6 :
+Avantages :
+Code organisé et réutilisable
+Séparation des responsabilités (connexion / logique métier)
+Utilisation de PDO + requêtes préparées pour la sécurité

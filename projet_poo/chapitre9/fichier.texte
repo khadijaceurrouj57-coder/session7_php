@@ -1,0 +1,20 @@
+etape 1 :
+J’ai créé une classe Article avec des propriétés privées
+$titre et $contenu pour protéger les données
+etape 2 :
+J’ai utilisé des getters et setters (setTitre, getTitre, setContenu, getContenu)
+pour accéder aux propriétés de manière contrôlée
+etape 3 :
+Dans les setters, j’ai ajouté de la validation :
+setTitre() vérifie que le titre n’est pas vide et contient plus de 3 caractères
+setContenu() utilise htmlspecialchars() pour sécuriser le contenu
+etape 4 :
+La méthode afficher() retourne le titre et le contenu sous forme de texte
+Étape 5 :
+J’ai créé un objet $article, utilisé les setters pour définir les valeurs,
+puis echo $article->afficher() affiche :
+Titre : ... - Contenu : ...
+Étape 6 :
+Principe d’encapsulation :
+Les propriétés sont private → accès direct interdit
+On passe par des méthodes pour contrôler et sécuriser les données.

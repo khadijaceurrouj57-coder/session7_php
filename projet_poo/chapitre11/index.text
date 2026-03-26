@@ -1,0 +1,18 @@
+etape 1 :
+J’ai utilisé PDO pour établir une connexion sécurisée à la base de données 
+avec gestion des erreurs (try/catch).
+etape 2 :
+J’ai exécuté une requête SELECT avec query() pour récupérer les données,
+puis fetchAll() pour les afficher avec une boucle foreach
+etape 3 :
+J’ai utilisé une requête préparée avec prepare() et execute() 
+pour faire un INSERT (ajouter un enregistrement)
+etape 4 :
+J’ai utilisé prepare() et execute() pour faire un UPDATE (modifier un enregistrement)
+etape 5 :
+J’ai utilisé prepare() et execute() pour faire un DELETE (supprimer un enregistrement)
+etape 6 :
+Bonnes pratiques :
+Utiliser requêtes préparées pour éviter les injections SQL
+Utiliser PDO pour la sécurité et la compatibilité
+Organiser le code avec une classe Database

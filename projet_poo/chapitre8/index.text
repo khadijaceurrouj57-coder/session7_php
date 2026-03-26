@@ -1,0 +1,17 @@
+etape 1:
+j'ai  créé une classe Article avec les propriétés $titre et $contenu
+et un constructeur pour les initialiser directement à la création d’un objet
+etape 2:
+j'ai créé une classe enfant BlogArticle qui hérite de Article 
+et ajoute une propriété $auteur
+etape 3:
+Le constructeur de BlogArticle utilise parent::__construct() 
+pour initialiser les propriétés du parent
+La méthode afficher() de BlogArticle
+ utilise parent::afficher() et ajoute l’auteur à l’affichage
+etape 4:
+j'ai créé un objet $article = new BlogArticle(...) et echo $article->afficher() affiche :
+Titre : ... - Contenu : ... - Auteur : ...
+etape 5:
+protected → accessible dans la classe parent et ses enfants
+private → accessible uniquement dans la classe où elle est définie
