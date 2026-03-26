@@ -1,0 +1,12 @@
+etape 1:
+On a créé une classe Article avec deux propriétés :
+$titre et $contenu
+etape 2:
+La méthode afficher() renvoie le texte combinant le titre et le contenu
+etape3:
+new Article() crée un nouvel objet.
+On a créé deux objets : $article1 et $article2
+et on faire  des titres et contenus différents
+etape 4:
+echo $article->afficher() affiche le texte final de chaque article
+$this fait référence à l’objet courant
