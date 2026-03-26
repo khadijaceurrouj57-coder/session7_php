@@ -1,0 +1,14 @@
+etape 1 :
+J’ai appris valider et nettoyer les données utilisateur (nom, email) 
+pour éviter les erreurs
+etape 2 :
+J’ai compris l’importance d’utiliser les requêtes 
+préparées pour protéger contre les injections SQL
+etape 3 :
+J’ai appris à gérer les erreurs avec try/catch
+et à les enregistrer dans un fichier log au lieu de les afficher
+etape 4 :
+J’ai compris qu’il faut limiter les droits de l’utilisateur MySQL 
+pour sécuriser la base de données.
+etape 5 :
+enfin, j’ai créé un formulaire qui contient les informations nom et email
