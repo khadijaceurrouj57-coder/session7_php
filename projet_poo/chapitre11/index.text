@@ -12,7 +12,6 @@ J’ai utilisé prepare() et execute() pour faire un UPDATE (modifier un enregis
 etape 5 :
 J’ai utilisé prepare() et execute() pour faire un DELETE (supprimer un enregistrement)
 etape 6 :
-Bonnes pratiques :
 Utiliser requêtes préparées pour éviter les injections SQL
 Utiliser PDO pour la sécurité et la compatibilité
 Organiser le code avec une classe Database
