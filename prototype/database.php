@@ -12,4 +12,3 @@ try{
     echo"l'erreur est " .$e->getmessage();
 
 }
-
