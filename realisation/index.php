@@ -1,19 +1,8 @@
-<!-- 
-require ("database.php");
-$sql="select * from articles";
-$stmt=$pdo->query($sql);
-$article=$stmt->fetchAll(pdo::FETCH_ASSOC);
-foreach($article as $articles){
-    echo"<div  style= padding:10 PX ; margin:10 PX>";
-    echo"<h2>".$articles['titre'] ."</h2>";
-    echo"<P>".$articles['contenu'] ."</P>";
-    echo"<h6>".$articles['date_publication'] ."</h6>";
-    echo"</div>";
-} -->
+
 <?php
 require("database.php");
 
-// جلب المقالات
+
 $sql = "SELECT * FROM articles ORDER BY date_publication DESC";
 $stmt = $pdo->query($sql);
 $articles = $stmt->fetchAll(PDO::FETCH_ASSOC);
